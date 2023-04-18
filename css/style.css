@@ -1,0 +1,76 @@
+/* Box Model Hack */
+/* * {
+     -moz-box-sizing: border-box;
+} */
+
+/* Clear fix hack */
+/* .clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+} */
+/* 
+.clear {
+	clear: both;
+} */
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/* body {
+
+} */
+/* @media media-type (media-feature){
+     /*Styles go here*/
+     /* } */ 
+     @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+     }
+
+
+     .cent{
+          display: flex;
+          justify-content: center;
+     }
+.shoe-container {
+     border:50px solid gray;
+     width: 900px;
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     /* justify-content:space-around; */
+
+}
+
+
+.carousel-cell {
+     width: 50%; /* half-width */
+     height: 160px;
+     margin-right: 10px;
+   }
+
+
+   .flickity-enabled:focus .flickity-viewport {
+     outline: thin dotted;
+     outline: 5px auto -webkit-focus-ring-color;
+   }
+/* @media all and (max-width:500px) {
+  main section, .bottom section {
+    width:100%;
+  }
+} */
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
